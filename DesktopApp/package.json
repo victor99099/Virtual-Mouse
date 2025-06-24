@@ -1,0 +1,27 @@
+{
+  "name": "virtualmousebackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@nut-tree-fork/nut-js": "^4.2.4",
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "qrcode": "^1.5.4",
+    "robotjs": "^0.6.0",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.0"
+  },
+  "caxa": {
+    "assets": [
+      "win-64/"
+    ]
+  }
+}
