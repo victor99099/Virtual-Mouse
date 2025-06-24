@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "standaloneMode": true,
+    "entrypoint": "./index.js",
+    "main": "index.js",
+    "modules": [
+        "ws",
+        "qrcode",
+        "robotjs",
+        "express",
+        "http",
+        "@nut-tree-fork/nut-js",
+        "child_process",
+        "path"
+    ],
+    "include": [
+        "win-x64"
+    ],
+    "output": "sea-prep.blob"
+}
